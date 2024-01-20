@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .brand {
+    @apply text-2xl font-bold bg-gradient-to-r from-rose-400 to-indigo-400 bg-clip-text text-transparent;
+  }
+}
